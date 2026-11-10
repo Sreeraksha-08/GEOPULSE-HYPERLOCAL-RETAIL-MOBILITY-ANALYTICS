@@ -1,0 +1,35 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Data files
+data/*
+!data/.gitkeep
+*.parquet
+*.csv
+
+# Node.js
+node_modules/
+dist/
+build/
+
+# dbt
+target/
+dbt_packages/
+logs/
+profiles.yml
+
+# Operating system and editor
+.DS_Store
+Thumbs.db
+.vscode/
