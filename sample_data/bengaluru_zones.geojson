@@ -1,0 +1,931 @@
+{
+  "type": "FeatureCollection",
+  "name": "GeoPulse_Bengaluru_Zones",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "BENG-Z01",
+        "zone_type": "residential",
+        "area_sq_km": 4.0,
+        "grid_row": 1,
+        "grid_column": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5485082,
+              12.9266844
+            ],
+            [
+              77.5669449,
+              12.9266844
+            ],
+            [
+              77.5669449,
+              12.9446507
+            ],
+            [
+              77.5485082,
+              12.9446507
+            ],
+            [
+              77.5485082,
+              12.9266844
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "BENG-Z02",
+        "zone_type": "residential",
+        "area_sq_km": 4.0,
+        "grid_row": 1,
+        "grid_column": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5669449,
+              12.9266844
+            ],
+            [
+              77.5853816,
+              12.9266844
+            ],
+            [
+              77.5853816,
+              12.9446507
+            ],
+            [
+              77.5669449,
+              12.9446507
+            ],
+            [
+              77.5669449,
+              12.9266844
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "BENG-Z03",
+        "zone_type": "office",
+        "area_sq_km": 4.0,
+        "grid_row": 1,
+        "grid_column": 3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5853816,
+              12.9266844
+            ],
+            [
+              77.6038184,
+              12.9266844
+            ],
+            [
+              77.6038184,
+              12.9446507
+            ],
+            [
+              77.5853816,
+              12.9446507
+            ],
+            [
+              77.5853816,
+              12.9266844
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "BENG-Z04",
+        "zone_type": "office",
+        "area_sq_km": 4.0,
+        "grid_row": 1,
+        "grid_column": 4
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6038184,
+              12.9266844
+            ],
+            [
+              77.6222551,
+              12.9266844
+            ],
+            [
+              77.6222551,
+              12.9446507
+            ],
+            [
+              77.6038184,
+              12.9446507
+            ],
+            [
+              77.6038184,
+              12.9266844
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "BENG-Z05",
+        "zone_type": "retail",
+        "area_sq_km": 4.0,
+        "grid_row": 1,
+        "grid_column": 5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6222551,
+              12.9266844
+            ],
+            [
+              77.6406918,
+              12.9266844
+            ],
+            [
+              77.6406918,
+              12.9446507
+            ],
+            [
+              77.6222551,
+              12.9446507
+            ],
+            [
+              77.6222551,
+              12.9266844
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "BENG-Z06",
+        "zone_type": "residential",
+        "area_sq_km": 4.0,
+        "grid_row": 2,
+        "grid_column": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5485082,
+              12.9446507
+            ],
+            [
+              77.5669449,
+              12.9446507
+            ],
+            [
+              77.5669449,
+              12.9626169
+            ],
+            [
+              77.5485082,
+              12.9626169
+            ],
+            [
+              77.5485082,
+              12.9446507
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "BENG-Z07",
+        "zone_type": "office",
+        "area_sq_km": 4.0,
+        "grid_row": 2,
+        "grid_column": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5669449,
+              12.9446507
+            ],
+            [
+              77.5853816,
+              12.9446507
+            ],
+            [
+              77.5853816,
+              12.9626169
+            ],
+            [
+              77.5669449,
+              12.9626169
+            ],
+            [
+              77.5669449,
+              12.9446507
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "BENG-Z08",
+        "zone_type": "office",
+        "area_sq_km": 4.0,
+        "grid_row": 2,
+        "grid_column": 3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5853816,
+              12.9446507
+            ],
+            [
+              77.6038184,
+              12.9446507
+            ],
+            [
+              77.6038184,
+              12.9626169
+            ],
+            [
+              77.5853816,
+              12.9626169
+            ],
+            [
+              77.5853816,
+              12.9446507
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "BENG-Z09",
+        "zone_type": "retail",
+        "area_sq_km": 4.0,
+        "grid_row": 2,
+        "grid_column": 4
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6038184,
+              12.9446507
+            ],
+            [
+              77.6222551,
+              12.9446507
+            ],
+            [
+              77.6222551,
+              12.9626169
+            ],
+            [
+              77.6038184,
+              12.9626169
+            ],
+            [
+              77.6038184,
+              12.9446507
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "BENG-Z10",
+        "zone_type": "retail",
+        "area_sq_km": 4.0,
+        "grid_row": 2,
+        "grid_column": 5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6222551,
+              12.9446507
+            ],
+            [
+              77.6406918,
+              12.9446507
+            ],
+            [
+              77.6406918,
+              12.9626169
+            ],
+            [
+              77.6222551,
+              12.9626169
+            ],
+            [
+              77.6222551,
+              12.9446507
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "BENG-Z11",
+        "zone_type": "residential",
+        "area_sq_km": 4.0,
+        "grid_row": 3,
+        "grid_column": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5485082,
+              12.9626169
+            ],
+            [
+              77.5669449,
+              12.9626169
+            ],
+            [
+              77.5669449,
+              12.9805831
+            ],
+            [
+              77.5485082,
+              12.9805831
+            ],
+            [
+              77.5485082,
+              12.9626169
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "BENG-Z12",
+        "zone_type": "residential",
+        "area_sq_km": 4.0,
+        "grid_row": 3,
+        "grid_column": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5669449,
+              12.9626169
+            ],
+            [
+              77.5853816,
+              12.9626169
+            ],
+            [
+              77.5853816,
+              12.9805831
+            ],
+            [
+              77.5669449,
+              12.9805831
+            ],
+            [
+              77.5669449,
+              12.9626169
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "BENG-Z13",
+        "zone_type": "retail",
+        "area_sq_km": 4.0,
+        "grid_row": 3,
+        "grid_column": 3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5853816,
+              12.9626169
+            ],
+            [
+              77.6038184,
+              12.9626169
+            ],
+            [
+              77.6038184,
+              12.9805831
+            ],
+            [
+              77.5853816,
+              12.9805831
+            ],
+            [
+              77.5853816,
+              12.9626169
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "BENG-Z14",
+        "zone_type": "retail",
+        "area_sq_km": 4.0,
+        "grid_row": 3,
+        "grid_column": 4
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6038184,
+              12.9626169
+            ],
+            [
+              77.6222551,
+              12.9626169
+            ],
+            [
+              77.6222551,
+              12.9805831
+            ],
+            [
+              77.6038184,
+              12.9805831
+            ],
+            [
+              77.6038184,
+              12.9626169
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "BENG-Z15",
+        "zone_type": "office",
+        "area_sq_km": 4.0,
+        "grid_row": 3,
+        "grid_column": 5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6222551,
+              12.9626169
+            ],
+            [
+              77.6406918,
+              12.9626169
+            ],
+            [
+              77.6406918,
+              12.9805831
+            ],
+            [
+              77.6222551,
+              12.9805831
+            ],
+            [
+              77.6222551,
+              12.9626169
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "BENG-Z16",
+        "zone_type": "office",
+        "area_sq_km": 4.0,
+        "grid_row": 4,
+        "grid_column": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5485082,
+              12.9805831
+            ],
+            [
+              77.5669449,
+              12.9805831
+            ],
+            [
+              77.5669449,
+              12.9985493
+            ],
+            [
+              77.5485082,
+              12.9985493
+            ],
+            [
+              77.5485082,
+              12.9805831
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "BENG-Z17",
+        "zone_type": "office",
+        "area_sq_km": 4.0,
+        "grid_row": 4,
+        "grid_column": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5669449,
+              12.9805831
+            ],
+            [
+              77.5853816,
+              12.9805831
+            ],
+            [
+              77.5853816,
+              12.9985493
+            ],
+            [
+              77.5669449,
+              12.9985493
+            ],
+            [
+              77.5669449,
+              12.9805831
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "BENG-Z18",
+        "zone_type": "residential",
+        "area_sq_km": 4.0,
+        "grid_row": 4,
+        "grid_column": 3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5853816,
+              12.9805831
+            ],
+            [
+              77.6038184,
+              12.9805831
+            ],
+            [
+              77.6038184,
+              12.9985493
+            ],
+            [
+              77.5853816,
+              12.9985493
+            ],
+            [
+              77.5853816,
+              12.9805831
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "BENG-Z19",
+        "zone_type": "residential",
+        "area_sq_km": 4.0,
+        "grid_row": 4,
+        "grid_column": 4
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6038184,
+              12.9805831
+            ],
+            [
+              77.6222551,
+              12.9805831
+            ],
+            [
+              77.6222551,
+              12.9985493
+            ],
+            [
+              77.6038184,
+              12.9985493
+            ],
+            [
+              77.6038184,
+              12.9805831
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "BENG-Z20",
+        "zone_type": "retail",
+        "area_sq_km": 4.0,
+        "grid_row": 4,
+        "grid_column": 5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6222551,
+              12.9805831
+            ],
+            [
+              77.6406918,
+              12.9805831
+            ],
+            [
+              77.6406918,
+              12.9985493
+            ],
+            [
+              77.6222551,
+              12.9985493
+            ],
+            [
+              77.6222551,
+              12.9805831
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "BENG-Z21",
+        "zone_type": "retail",
+        "area_sq_km": 4.0,
+        "grid_row": 5,
+        "grid_column": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5485082,
+              12.9985493
+            ],
+            [
+              77.5669449,
+              12.9985493
+            ],
+            [
+              77.5669449,
+              13.0165156
+            ],
+            [
+              77.5485082,
+              13.0165156
+            ],
+            [
+              77.5485082,
+              12.9985493
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "BENG-Z22",
+        "zone_type": "residential",
+        "area_sq_km": 4.0,
+        "grid_row": 5,
+        "grid_column": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5669449,
+              12.9985493
+            ],
+            [
+              77.5853816,
+              12.9985493
+            ],
+            [
+              77.5853816,
+              13.0165156
+            ],
+            [
+              77.5669449,
+              13.0165156
+            ],
+            [
+              77.5669449,
+              12.9985493
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "BENG-Z23",
+        "zone_type": "residential",
+        "area_sq_km": 4.0,
+        "grid_row": 5,
+        "grid_column": 3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5853816,
+              12.9985493
+            ],
+            [
+              77.6038184,
+              12.9985493
+            ],
+            [
+              77.6038184,
+              13.0165156
+            ],
+            [
+              77.5853816,
+              13.0165156
+            ],
+            [
+              77.5853816,
+              12.9985493
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "BENG-Z24",
+        "zone_type": "office",
+        "area_sq_km": 4.0,
+        "grid_row": 5,
+        "grid_column": 4
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6038184,
+              12.9985493
+            ],
+            [
+              77.6222551,
+              12.9985493
+            ],
+            [
+              77.6222551,
+              13.0165156
+            ],
+            [
+              77.6038184,
+              13.0165156
+            ],
+            [
+              77.6038184,
+              12.9985493
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "BENG-Z25",
+        "zone_type": "office",
+        "area_sq_km": 4.0,
+        "grid_row": 5,
+        "grid_column": 5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6222551,
+              12.9985493
+            ],
+            [
+              77.6406918,
+              12.9985493
+            ],
+            [
+              77.6406918,
+              13.0165156
+            ],
+            [
+              77.6222551,
+              13.0165156
+            ],
+            [
+              77.6222551,
+              12.9985493
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
