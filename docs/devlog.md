@@ -89,3 +89,14 @@ Environment setup and initial verification completed successfully.
 
 ### Status
 Bengaluru simulated geography generation and validation completed.
+
+## Day 4 - Synthetic Device Movement Simulator
+- Created simulator/generate_movement.py.
+- Generated synthetic movement data for 1,000 devices across 7 days.
+- Produced 336,000 movement records.
+- Added morning commute, working, lunch, evening, weekend and residential activities.
+- Used reproducible random seed and hashed device identifiers.
+- Added GPS coordinate noise.
+- Validation passed: 0 missing values and 0 duplicate rows.
+- Output: sample_data/device_movement_day4.csv.
+
