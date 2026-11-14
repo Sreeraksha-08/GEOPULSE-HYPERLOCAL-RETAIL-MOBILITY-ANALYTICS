@@ -34,7 +34,7 @@ All mobility data will be simulated. No real individual location data will be us
 
 ### Status
 Day 1 setup tasks completed.
-## Day 2 — November 11, 2026: Development Environment Setup
+## Day 2 - November 11, 2026: Development Environment Setup
 
 ### Completed
 - Created and activated the Python virtual environment (.venv).
@@ -61,7 +61,7 @@ Day 1 setup tasks completed.
 ### Status
 Environment setup and initial verification completed successfully.
 
-## Day 3 — November 12, 2026: Bengaluru City Geography
+## Day 3 - November 12, 2026: Bengaluru City Geography
 
 ### Completed
 - Defined an approximate 10 km x 10 km simulated Bengaluru study area.
@@ -99,4 +99,15 @@ Bengaluru simulated geography generation and validation completed.
 - Added GPS coordinate noise.
 - Validation passed: 0 missing values and 0 duplicate rows.
 - Output: sample_data/device_movement_day4.csv.
+
+## Day 5 - November 14, 2026: Parquet Conversion and Automated Testing
+
+- Created `simulator/convert_to_parquet.py` to convert movement CSV data into Parquet format.
+- Generated `sample_data/device_movement_day5.parquet`.
+- Verified 336,000 records and 1,000 unique devices.
+- Confirmed zero missing values and duplicate records.
+- Reduced dataset size from approximately 33.13 MiB to 5.58 MiB.
+- Created `tests/test_movement_data.py` with 9 automated validation tests.
+- Test result: 9 passed in 3.13 seconds.
+- Confirmed Parquet files are excluded from Git through `.gitignore`.
 
