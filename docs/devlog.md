@@ -111,3 +111,17 @@ Bengaluru simulated geography generation and validation completed.
 - Test result: 9 passed in 3.13 seconds.
 - Confirmed Parquet files are excluded from Git through `.gitignore`.
 
+
+## Day 6 - November 15, 2026: Snowflake Data Warehouse Setup
+
+- Created and configured the Snowflake trial account.
+- Created database: GEOPULSE_DB.
+- Created RAW schema.
+- Created X-Small warehouse: GEOPULSE_WH.
+- Configured auto-suspend after 60 seconds.
+- Enabled automatic warehouse resume.
+- Verified the active database, schema, warehouse and role.
+- Saved setup SQL in warehouse/setup_snowflake.sql.
+
+### Status
+Snowflake account and initial data warehouse setup completed and verified.
