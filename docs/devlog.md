@@ -125,3 +125,19 @@ Bengaluru simulated geography generation and validation completed.
 
 ### Status
 Snowflake account and initial data warehouse setup completed and verified.
+
+## Day 7 - November 16, 2026: Snowflake Data Loading and Validation
+
+- Loaded synthetic movement data into Snowflake.
+- Target table: GEOPULSE_DB.RAW.RAW_DEVICE_MOVEMENT.
+- Source file: device_movement_day4.csv.
+- Successfully loaded 336,000 records.
+- Verified 1,000 unique simulated devices.
+- Confirmed zero null timestamps.
+- Confirmed zero null device IDs.
+- Confirmed zero exact duplicate records.
+- Verified all seven expected activity categories.
+- Created SQL validation queries in warehouse/day7_validate_movement.sql.
+
+### Status
+Snowflake movement data loading and validation completed.
