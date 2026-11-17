@@ -33,3 +33,5 @@ profiles.yml
 .DS_Store
 Thumbs.db
 .vscode/
+# Spark Python environment
+.venv-spark/

@@ -1,6 +1,6 @@
-# GeoPulse — Development Log
+﻿# GeoPulse â€” Development Log
 
-## Day 1 — 10 November 2026
+## Day 1 â€” 10 November 2026
 
 ### Completed Tasks
 - Created the GeoPulse GitHub repository.
@@ -141,3 +141,11 @@ Snowflake account and initial data warehouse setup completed and verified.
 
 ### Status
 Snowflake movement data loading and validation completed.
+## Day 8 - Spark and Sedona Setup
+- Installed Python 3.10.11 in a separate `.venv-spark` environment.
+- Installed PySpark 3.5.9 and Apache Sedona 1.9.1.
+- Verified Java 11.0.33 and successful package imports.
+- Successfully ran a local Spark calculation: 10 rows counted.
+- Added automated setup tests and Day 8 documentation.
+- Sedona spatial query remains pending due to the Windows Hadoop configuration limitation.
+
