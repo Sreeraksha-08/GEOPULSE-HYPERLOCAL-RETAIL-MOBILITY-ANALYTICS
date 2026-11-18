@@ -149,3 +149,19 @@ Snowflake movement data loading and validation completed.
 - Added automated setup tests and Day 8 documentation.
 - Sedona spatial query remains pending due to the Windows Hadoop configuration limitation.
 
+## Day 9 – Spark and Sedona Spatial Processing
+
+**Completed:**
+- Set up Ubuntu 26.04 through WSL2.
+- Installed Python 3.10.22 and Java 17.
+- Created dedicated `.venv-spark-ws1` environment.
+- Installed PySpark 3.5.9 and Apache Sedona 1.9.1.
+- Verified package compatibility using `uv pip check`.
+- Downloaded the Sedona Spark 3.5 Java dependency.
+- Executed a Sedona spatial SQL query successfully.
+
+**Validation:**
+- Bengaluru point: `POINT (77.5946 12.9716)`
+- Result: `SEDONA SPATIAL TEST PASSED`
+
+**Outcome:** Spark and Sedona spatial processing successfully verified in WSL2.
