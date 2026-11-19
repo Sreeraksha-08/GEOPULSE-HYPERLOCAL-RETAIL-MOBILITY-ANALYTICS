@@ -165,3 +165,21 @@ Snowflake movement data loading and validation completed.
 - Result: `SEDONA SPATIAL TEST PASSED`
 
 **Outcome:** Spark and Sedona spatial processing successfully verified in WSL2.
+
+## Day 10 – Spark and Sedona Spatial Processing
+
+**Completed:**
+- Loaded 336,000 synthetic device movement records.
+- Converted movement coordinates into Spark point geometries.
+- Loaded 25 Bengaluru zone polygons.
+- Performed a spatial join using Sedona ST_Contains.
+- Aggregated movement records by zone and zone type.
+
+**Validation:**
+- Movement records: 336,000
+- Point geometries: 336,000
+- Zone polygons: 25
+- Matched records: 336,000
+- Unmatched records: 0
+
+**Outcome:** GeoPulse Day 10 spatial processing successfully completed and verified using PySpark, Apache Sedona, and Shapely.
