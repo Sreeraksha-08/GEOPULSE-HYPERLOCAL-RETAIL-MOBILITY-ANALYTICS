@@ -183,3 +183,23 @@ Snowflake movement data loading and validation completed.
 - Unmatched records: 0
 
 **Outcome:** GeoPulse Day 10 spatial processing successfully completed and verified using PySpark, Apache Sedona, and Shapely.
+
+## Day 11 — Store Catchment Analysis
+
+**Completed:**
+- Loaded 336,000 synthetic movement records.
+- Created 336,000 spatial point geometries using Apache Sedona.
+- Loaded 12 existing stores and 4 candidate stores.
+- Calculated 500-metre store catchments using `ST_DistanceSphere`.
+- Identified 54,458 movement-point matches.
+- Compared existing and candidate store catchment activity.
+- Validated all expected record and store counts.
+
+**Results:**
+- Existing store catchment matches: 41,267.
+- Candidate store catchment matches: 13,191.
+- Total catchment matches: 54,458.
+
+**Validation:** GEOPULSE DAY 11 STORE CATCHMENT ANALYSIS PASSED.
+
+**Status:** Completed.
