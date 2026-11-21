@@ -1,0 +1,26 @@
+version: 2
+
+models:
+  - name: mart_hourly_footfall
+    description: >
+      Hourly count of distinct synthetic devices visiting retail zones.
+      Includes lunch, evening and weekend retail visit activities.
+    columns:
+      - name: hour_start
+        description: Hour represented by the aggregate.
+        tests:
+          - not_null
+          - unique
+      - name: unique_visitors
+        description: Distinct devices recorded in retail zones during the hour.
+        tests:
+          - not_null
+  - name: mart_morning_evening_footfall
+    description: Daily comparison of summed hourly unique retail visitors.
+    columns:
+      - name: visit_date
+        tests:
+          - not_null
+      - name: daypart
+        tests:
+          - not_null
