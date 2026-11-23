@@ -229,3 +229,4 @@ Snowflake movement data loading and validation completed.
 
 **Status:** dbt configuration and discovery verified; Snowflake execution pending authentication.
 
+
