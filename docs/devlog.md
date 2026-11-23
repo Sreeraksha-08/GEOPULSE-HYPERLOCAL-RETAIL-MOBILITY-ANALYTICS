@@ -215,3 +215,17 @@ Snowflake movement data loading and validation completed.
 - Confirmed all mobility data is synthetic.
 - Snowflake execution of dbt models remains pending authentication.
 
+
+## Day 14 — dbt Configuration and Validation
+
+- Verified dbt Core 1.12.7 and Snowflake adapter 1.12.1.
+- Successfully parsed the dbt project.
+- Discovered 2 analytics models, 5 data tests and 1 source.
+- Confirmed dbt profile and project configuration are valid.
+- Attempted Snowflake connectivity using dbt debug.
+- Connection blocked by Snowflake SAML Identity Provider error 390190.
+- Model execution and dbt test execution remain unverified.
+- Created docs/DAY14_DBT_VALIDATION.md.
+
+**Status:** dbt configuration and discovery verified; Snowflake execution pending authentication.
+
