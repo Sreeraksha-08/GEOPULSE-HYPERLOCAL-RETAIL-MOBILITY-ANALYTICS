@@ -230,3 +230,11 @@ Snowflake movement data loading and validation completed.
 **Status:** dbt configuration and discovery verified; Snowflake execution pending authentication.
 
 
+
+## Day 15 — dbt Analytics Model Review
+- Reviewed both existing dbt analytics models.
+- Reviewed source and model schema YAML configuration.
+- Confirmed dbt parsing and discovery of 2 models, 5 tests and 1 source.
+- Recorded the Snowflake SAML authentication blocker.
+- Warehouse compilation, model execution and runtime tests remain pending.
+- Details: docs/DAY15_DBT_ANALYTICS_REVIEW.md
