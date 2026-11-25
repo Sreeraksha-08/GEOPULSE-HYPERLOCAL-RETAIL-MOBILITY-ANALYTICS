@@ -238,3 +238,17 @@ Snowflake movement data loading and validation completed.
 - Recorded the Snowflake SAML authentication blocker.
 - Warehouse compilation, model execution and runtime tests remain pending.
 - Details: docs/DAY15_DBT_ANALYTICS_REVIEW.md
+
+## Day 16 — dbt Analytics Model Refinement
+
+- Strengthened hourly model daypart validation with accepted values.
+- Added accepted-values validation for morning/evening daypart.
+- Added singular test assert_positive_footfall.
+- Clarified that summed hourly visitor counts are not daily distinct-device counts.
+- Successfully parsed the dbt project.
+- Discovered 2 models, 9 data tests, 1 source and 563 macros.
+- Confirmed discovery of the new singular SQL test.
+- Snowflake runtime execution remains pending authentication.
+- Created docs/DAY16_DBT_MODEL_REFINEMENT.md.
+
+**Status:** dbt parsing and test discovery verified; warehouse execution pending authentication.

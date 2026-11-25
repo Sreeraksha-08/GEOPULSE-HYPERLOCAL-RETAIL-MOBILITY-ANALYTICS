@@ -15,8 +15,18 @@ models:
         description: Distinct devices recorded in retail zones during the hour.
         tests:
           - not_null
+      - name: daypart
+        description: Time-of-day classification for each hourly record.
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['morning', 'afternoon', 'evening', 'overnight']
+
   - name: mart_morning_evening_footfall
-    description: Daily comparison of summed hourly unique retail visitors.
+    description: >
+      Daily comparison of summed hourly unique visitor counts.
+      These sums are not daily distinct-device counts.
     columns:
       - name: visit_date
         tests:
@@ -24,3 +34,6 @@ models:
       - name: daypart
         tests:
           - not_null
+          - accepted_values:
+              arguments:
+                values: ['morning', 'evening']
