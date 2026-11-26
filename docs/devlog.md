@@ -252,3 +252,18 @@ Snowflake movement data loading and validation completed.
 - Created docs/DAY16_DBT_MODEL_REFINEMENT.md.
 
 **Status:** dbt parsing and test discovery verified; warehouse execution pending authentication.
+
+## Day 17 — dbt Data Quality and Integrity Refinement
+
+- Inspected hourly and morning/evening analytics models.
+- Reviewed existing schema tests and singular SQL tests.
+- Added assert_unique_morning_evening_grain.
+- Added assert_positive_morning_evening_footfall.
+- Successfully parsed the dbt project.
+- Verified discovery of 2 models, 11 data tests, 1 source and 563 macros.
+- Attempted dbt test execution.
+- Runtime execution was blocked by Snowflake SAML connection error 390190.
+- No individual runtime test results were obtained.
+- Created docs/DAY17_DBT_DATA_QUALITY.md.
+
+**Status:** Parsing and test discovery verified; runtime validation blocked by authentication.
